@@ -51,7 +51,7 @@ include 'aaside.php'; ?>
                                             <th>&nbsp;</th>
                                            <th>Collector</th>
 											<th>Client</th>
-											<th>Junk Tpye</th><th>Pay Type</th>
+											<th>Junk Type</th><th>Pay Type</th>
 											<th>Amount</th> 
                                             <th>Balance</th> 
                                             <th>Date</th> 
@@ -71,7 +71,7 @@ include 'aaside.php'; ?>
                                             <td><?php echo $hk['collector'];?></td>
                                             <td><?php echo $hk['clientname'];?></td>
                                             <td><?php echo $hk['typeofwaste'];?></td>
-                                            <td><?php echo $hk['paytype'];?></td>
+											<td><?php echo $hk['paytype'];?></td>
                                             <td><?php echo $hk['amountpaid'];?></td>
                                             <td><?php echo $hk['balance'];?></td>
                                             <td><?php echo $hk['date'];?></td>
